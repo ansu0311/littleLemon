@@ -1,0 +1,23 @@
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.container2> form > #user{
+    margin: 20px;
+    font: karla;
+    font-weight: 700;
+    font-size: 25px;
+}
+.container2> form> #user> input{
+    border-radius: 25px;
+    border-color: black;
+    margin-left: 10px;
+    box-sizing: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#imagesss{
+    width: 1200px;
+}

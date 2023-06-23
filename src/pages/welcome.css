@@ -1,0 +1,17 @@
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5> img{
+    width: 900px;
+}
+.homeb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeb> .btn{
+    width: 900px;
+    
+}

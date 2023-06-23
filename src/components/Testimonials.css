@@ -1,0 +1,18 @@
+.test{
+    display: grid;
+    grid-template-columns: 190px 440px;
+    grid-template-rows: 240px;
+    grid-template-areas: "image" "review";
+    text-align: center;
+    grid-gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    width: 140px;
+}
+.review{
+    font: karla;
+    font-size: 15px;
+    font-weight: 700;
+}

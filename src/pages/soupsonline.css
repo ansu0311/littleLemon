@@ -1,0 +1,9 @@
+#menus{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: karla;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px;
+}
