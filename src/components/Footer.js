@@ -1,35 +1,43 @@
-import React from 'react';
+import { Link } from "react-router-dom"
 
-export default function Footer() {
-  return (
-    <footer className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 d-flex justify-content-center align-items-center">
-            <img src="Asset 18@4x.png" alt="Logo" className="img-fluid" />
-          </div>
-          <div className="col-lg-4">
-            <h5>Follow Us on</h5>
-            <ul className="social-media-links" style={{ listStyle: 'none' }}>
-              <li>
-                <a href="instagram.com" style={{ fontWeight: 'bold', color: 'black' }}> Instagram-@LittleLemon</a>
-              </li>
-              <li>
-                <a href="facebook.com" style={{ fontWeight: 'bold', color: 'black' }}>Facebook-@LittleLemon</a>
-              </li>
-              <li>
-                <a href="youtube.com" style={{ fontWeight: 'bold', color: 'black' }}>Youtube-@LittleLemon</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-lg-4">
-            <h5>Contact Info</h5>
-            <p><b>Email:</b> LittleLemon@example.com</p>
-            <p><b>Phone:</b> 123-456-7890</p>
-            <p><b>Address:</b> 123 Street, City, Chicago</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
+export default function Footer(){
+    return(
+        <footer className="sep">
+            <div>
+                <img width="250px" src="https://littlelemonrestaurantankitamwebsiteproject.netlify.app/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg" alt="logo" />
+            </div>
+
+            {/* navigation sections */}
+            <div>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">About</Link></li>
+                    <li><Link to="/">Menu</Link></li>
+                    <li><Link to="/booking">Reservations</Link></li>
+                    <li><Link to="/">Order Online</Link></li>
+                </ul>
+            </div>
+
+            {/* contact sections */}
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li><Link to="/">Phone Number</Link></li>
+                    <li><Link to="/">Email</Link></li>
+                    <li><Link to="/">Address</Link></li>
+                </ul>
+            </div>
+
+            {/* social media sections */}
+            <div>
+                <h3>Social Media</h3>
+                <ul>
+                    <li><Link to="/">Instagram</Link></li>
+                    <li><Link to="/">LinkedIn</Link></li>
+                    <li><Link to="/">Pinterest</Link></li>
+                </ul>
+            </div>
+        </footer>
+    )
 }
